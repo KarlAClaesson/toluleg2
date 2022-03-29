@@ -32,7 +32,6 @@ def Jacobian(x,y,z,d):
             J[i,3] = c
     return J
 
-
 def F(x,y,z,d):
     f1=r(x,y,z,S1)-c*(t1-d)
     f2=r(x,y,z,S2)-c*(t2-d)

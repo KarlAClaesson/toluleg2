@@ -49,10 +49,3 @@ def newton(vec):
     return res
 
 print(newton(vec))
-
-i=0
-while(i<10):
-    i=i+1
-    vec = newton(vec)
-
-print(vec)

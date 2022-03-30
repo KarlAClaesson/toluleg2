@@ -47,4 +47,5 @@ def newton(vec):
     res = vec - np.dot(np.linalg.inv(Jacobian(x,y,z,d)),F(x,y,z,d))
     return res
 
+
 print(newton(vec))
